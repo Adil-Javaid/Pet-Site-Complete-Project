@@ -1,0 +1,66 @@
+.about-us-container {
+    /* max-width: 800px; */
+    width: 96.5%;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-container h2 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+.about-us-container p {
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h3 {
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #4caf50;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #4caf50;
+}
+
+.company-details {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.company-details h3 {
+    color: #4caf50;
+    margin-bottom: 15px;
+}
