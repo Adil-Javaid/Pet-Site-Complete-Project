@@ -7,7 +7,7 @@ export interface Reviews{
 }
 
 export const fetchReview = async(): Promise<Reviews[]> =>{
-    const response = await fetch("http://localhost:6005/api/review")
+    const response = await fetch("https://petsiteprojectcomplete-i0cstd47.b4a.run/api/review")
     if(!response.ok){
         throw new Error("Failed to fetch Reviews");
     }

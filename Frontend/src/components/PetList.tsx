@@ -20,7 +20,7 @@ const PetList: React.FC = () => {
   useEffect(() => {
     const fetchPets = async () => {
       try {
-        const response = await axios.get("http://localhost:6005/api/pets");
+        const response = await axios.get("https://petsiteprojectcomplete-i0cstd47.b4a.run/api/pets");
         setPets(response.data);
       } catch (err) {
         console.error(err);

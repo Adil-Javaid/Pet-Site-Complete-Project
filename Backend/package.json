@@ -17,6 +17,7 @@
     "express": "^4.19.2",
     "mongodb": "^6.7.0",
     "mongoose": "^8.4.3",
+    "netlify-cli": "^17.34.1",
     "nodemon": "^3.1.4",
     "Router": "^2.1.0"
   }
