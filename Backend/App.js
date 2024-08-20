@@ -17,7 +17,7 @@ app.use(express.json());
 // CORS configuration
 const allowedOrigins = [
   "http://localhost:3000", // For local development
-  "https://petsiteprojectcomplete1-dq528k1c.b4a.run", // Your deployed frontend URL
+  "https://pet-site-complete-project.vercel.app", // Your deployed frontend URL
 ];
 
 const corsOptions = {
