@@ -16,7 +16,7 @@ export interface Blogs{
 }
 
 export const fetchBlog = async (): Promise<Blogs[]> =>{
-    const response = await fetch("https://petsiteprojectcomplete-i0cstd47.b4a.run/api/blog");
+    const response = await fetch("https://petsiteprojectcomplete1-dq528k1c.b4a.run/api/blog");
     if(!response.ok){
         throw new Error("Failed to fetch blog");
     }

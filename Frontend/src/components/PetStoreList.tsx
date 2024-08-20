@@ -19,7 +19,7 @@ const PetStoreList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://petsiteprojectcomplete-i0cstd47.b4a.run/api/pet-store");
+        const response = await axios.get("https://petsiteprojectcomplete1-dq528k1c.b4a.run/api/pet-store");
         setPetStoreData(response.data);
       } catch (err) {
         console.error(err);

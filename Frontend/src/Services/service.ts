@@ -5,7 +5,7 @@ export interface Services{
 }
 
 export const fetchServices = async(): Promise<Services[]> =>{
-    const response = await fetch("https://petsiteprojectcomplete-i0cstd47.b4a.run/api/services");
+    const response = await fetch("https://petsiteprojectcomplete1-dq528k1c.b4a.run/api/services");
     if(!response.ok){
         throw new Error("Failed to fetch services");
     }
